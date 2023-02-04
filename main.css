@@ -2552,3 +2552,14 @@ ul {
     background-color: rgba(100,255,218,0.1);
     border: 1px solid #64ffda;
 }
+.lazy {
+    opacity: 0;
+    transition: transform ease-out 0.5s, opacity 0.5s;
+}
+.lazy:not(:first-child) {
+    transform: translateY(50%);
+}
+.lazy.visible {
+    transform: translateY(0);
+    opacity: 1;
+}
