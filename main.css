@@ -990,7 +990,7 @@ ul {
 
 @media only screen and (max-width:480px) {
     #services-section .service-row .service-column {
-        padding: 20px 0
+        /* padding: 20px 0 */
     }
 }
 
@@ -1005,12 +1005,14 @@ ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
     #services-section .service-row .service-column:nth-of-type(odd) {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 }
 
