@@ -1000,7 +1000,17 @@ ul {
 
 @media only screen and (max-width:660px) {
     #services-section .service-row .service-column:nth-of-type(even) {
-        border: none
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #services-section .service-row .service-column:nth-of-type(odd) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
