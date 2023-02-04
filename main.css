@@ -1,69 +1,4 @@
-@font-face {
-    font-family: 'Chronicle Display Bold';
-    src: url(fonts/chronicle-display/ChronicleDisplay-Bold.eot);
-    src: url(../fonts/chronicle-display/ChronicleDisplay-Bold.eot?#iefix) format("embedded-opentype"),url(../fonts/chronicle-display/ChronicleDisplay-Bold.woff2) format("woff2"),url(../fonts/chronicle-display/ChronicleDisplay-Bold.woff) format("woff"),url(../fonts/chronicle-display/ChronicleDisplay-Bold.ttf) format("truetype"),url(../fonts/chronicle-display/ChronicleDisplay-Bold.svg#ChronicleDisplay-Bold) format("svg");
-    font-weight: 700;
-    font-style: normal
-}
 
-@font-face {
-    font-family: Whitney;
-    src: url(../fonts/whitney/whitney-book.woff2) format("woff2"),url(../fonts/whitney/whitney-book.woff) format("woff"),url(../fonts/whitney/whitney-book.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Whitney;
-    src: url(../fonts/whitney/whitney-bookitalic.woff2) format("woff2"),url(../fonts/whitney/whitney-bookitalic.woff) format("woff"),url(../fonts/whitney/whitney-bookitalic.ttf) format("truetype");
-    font-weight: 400;
-    font-style: italic
-}
-
-@font-face {
-    font-family: Whitney;
-    src: url(../fonts/whitney/whitney-medium.woff2) format("woff2"),url(../fonts/whitney/whitney-medium.woff) format("woff"),url(../fonts/whitney/whitney-medium.ttf) format("truetype");
-    font-weight: 500;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Whitney;
-    src: url(../fonts/whitney/whitney-mediumitalic.woff2) format("woff2"),url(../fonts/whitney/whitney-mediumitalic.woff) format("woff"),url(../fonts/whitney/whitney-mediumitalic.ttf) format("truetype");
-    font-weight: 500;
-    font-style: italic
-}
-
-@font-face {
-    font-family: Whitney;
-    src: url(../fonts/whitney/whitney-bold.woff2) format("woff2"),url(../fonts/whitney/whitney-bold.woff) format("woff"),url(../fonts/whitney/whitney-bold.ttf) format("truetype");
-    font-weight: 700;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Gotham;
-    src: url(../fonts/gotham/Gotham-Book.eot);
-    src: url(../fonts/gotham/Gotham-Book.eot?#iefix) format("embedded-opentype"),url(../fonts/gotham/Gotham-Book.woff2) format("woff2"),url(../fonts/gotham/Gotham-Book.woff) format("woff"),url(../fonts/gotham/Gotham-Book.ttf) format("truetype"),url(../fonts/gotham/Gotham-Book.svg#Gotham-Book) format("svg");
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Gotham;
-    src: url(../fonts/gotham/Gotham-Medium.eot);
-    src: url(../fonts/gotham/Gotham-Medium.eot?#iefix) format("embedded-opentype"),url(../fonts/gotham/Gotham-Medium.woff2) format("woff2"),url(../fonts/gotham/Gotham-Medium.woff) format("woff"),url(../fonts/gotham/Gotham-Medium.ttf) format("truetype"),url(../fonts/gotham/Gotham-Medium.svg#Gotham-Medium) format("svg");
-    font-weight: 500;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Gotham;
-    src: url(../fonts/gotham/Gotham-Bold.eot);
-    src: url(../fonts/gotham/Gotham-Bold.eot?#iefix) format("embedded-opentype"),url(../fonts/gotham/Gotham-Bold.woff2) format("woff2"),url(../fonts/gotham/Gotham-Bold.woff) format("woff"),url(../fonts/gotham/Gotham-Bold.ttf) format("truetype"),url(../fonts/gotham/Gotham-Bold.svg#Gotham-Bold) format("svg");
-    font-weight: 700;
-    font-style: normal
-}
 
 *, :after, :before {
     box-sizing: border-box;
@@ -1329,7 +1264,7 @@ ul {
 
 @media only screen and (max-width:480px) {
     #skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
-        width: 14vh;
+        width: 17vh;
         height: 80px;
         line-height: 5.5
     }
@@ -2556,9 +2491,7 @@ ul {
     opacity: 0;
     transition: transform ease-out 0.5s, opacity 1s;
 }
-.lazy:not(:first-child) {
-    /* transform: translateY(50%); */
-}
+
 .lazy.visible:not(:first-child) {
     transform: translateY(0);
     opacity: 1;
