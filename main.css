@@ -220,114 +220,114 @@ ul {
 
 #intro-section .bg {
     z-index: 0;
-    background-image: url(img/intro-xl.jpg)
+    background-image: url(intro-xl.jpg)
 }
 
 @media only screen and (max-width:1170px) {
     #intro-section .bg {
-        background-image: url(img/bg-intro/intro-lg.jpg)
+        background-image: url(bg-intro/intro-lg.jpg)
     }
 }
 
 @media only screen and (max-width:900px) {
     #intro-section .bg {
-        background-image: url(img/bg-intro/intro-md.jpg)
+        background-image: url(bg-intro/intro-md.jpg)
     }
 }
 
 @media only screen and (max-width:660px) {
     #intro-section .bg {
-        background-image: url(img/bg-intro/intro-sm.jpg)
+        background-image: url(bg-intro/intro-sm.jpg)
     }
 }
 
 @media only screen and (max-width:480px) {
     #intro-section .bg {
-        background-image: url(img/bg-intro/intro-xs.jpg)
+        background-image: url(bg-intro/intro-xs.jpg)
     }
 }
 
 #services-section .bg {
-    background-image: url(img/services-xl.jpg)
+    background-image: url(services-xl.jpg)
 }
 
 @media only screen and (max-width:1170px) {
     #services-section .bg {
-        background-image: url(img/bg-services/services-lg.jpg)
+        background-image: url(bg-services/services-lg.jpg)
     }
 }
 
 @media only screen and (max-width:900px) {
     #services-section .bg {
-        background-image: url(img/bg-services/services-md.jpg)
+        background-image: url(bg-services/services-md.jpg)
     }
 }
 
 @media only screen and (max-width:660px) {
     #services-section .bg {
-        background-image: url(img/bg-services/services-sm.jpg)
+        background-image: url(bg-services/services-sm.jpg)
     }
 }
 
 @media only screen and (max-width:480px) {
     #services-section .bg {
-        background-image: url(img/bg-services/services-xs.jpg)
+        background-image: url(bg-services/services-xs.jpg)
     }
 }
 
 #experience-section .bg {
-    background-image: url(img/bg-experience/experience-xl.jpg)
+    background-image: url(bg-experience/experience-xl.jpg)
 }
 
 @media only screen and (max-width:1170px) {
     #experience-section .bg {
-        background-image: url(img/bg-experience/experience-lg.jpg)
+        background-image: url(bg-experience/experience-lg.jpg)
     }
 }
 
 @media only screen and (max-width:900px) {
     #experience-section .bg {
-        background-image: url(img/bg-experience/experience-md.jpg)
+        background-image: url(bg-experience/experience-md.jpg)
     }
 }
 
 @media only screen and (max-width:660px) {
     #experience-section .bg {
-        background-image: url(img/bg-experience/experience-sm.jpg)
+        background-image: url(bg-experience/experience-sm.jpg)
     }
 }
 
 @media only screen and (max-width:480px) {
     #experience-section .bg {
-        background-image: url(img/bg-experience/experience-xs.jpg)
+        background-image: url(bg-experience/experience-xs.jpg)
     }
 }
 
 #contact-section .bg {
-    background-image: url(img/bg-contact/contact-xl.jpg)
+    background-image: url(bg-contact/contact-xl.jpg)
 }
 
 @media only screen and (max-width:1170px) {
     #contact-section .bg {
-        background-image: url(img/bg-contact/contact-lg.jpg)
+        background-image: url(bg-contact/contact-lg.jpg)
     }
 }
 
 @media only screen and (max-width:900px) {
     #contact-section .bg {
-        background-image: url(img/bg-contact/contact-md.jpg)
+        background-image: url(bg-contact/contact-md.jpg)
     }
 }
 
 @media only screen and (max-width:660px) {
     #contact-section .bg {
-        background-image: url(img/bg-contact/contact-sm.jpg)
+        background-image: url(bg-contact/contact-sm.jpg)
     }
 }
 
 @media only screen and (max-width:480px) {
     #contact-section .bg {
-        background-image: url(img/bg-contact/contact-xs.jpg)
+        background-image: url(bg-contact/contact-xs.jpg)
     }
 }
 
@@ -1099,20 +1099,20 @@ ul {
 }
 
 #services-section .service-row .service-column .sprite.webdev {
-    background-image: url(img/icons/html.png)
+    background-image: url(icons/html.png)
 }
 
 #services-section .service-row .service-column .sprite.ui {
-    background-image: url(img/icons/pencil.png);
+    background-image: url(icons/pencil.png);
     background-size: 90%
 }
 
 #services-section .service-row .service-column .sprite.xd {
-    background-image: url(img/icons/ux-design.png)
+    background-image: url(icons/ux-design.png)
 }
 
 #services-section .service-row .service-column .sprite.wit {
-    background-image: url(img/icons/internet.png);
+    background-image: url(icons/internet.png);
     background-size: 90%
 }
 
@@ -1192,21 +1192,21 @@ ul {
 }
 
     #skills-section .skills-flex-wrapper .skills-heading .sprite.dev {
-        background-image: url(img/icons/settings.png)
+        background-image: url(icons/settings.png)
     }
 
     #skills-section .skills-flex-wrapper .skills-heading .sprite.design {
-        background-image: url(img/icons/design.png);
+        background-image: url(icons/design.png);
         background-size: 90%
     }
 
     #skills-section .skills-flex-wrapper .skills-heading .sprite.tools {
-        background-image: url(img/icons/repair-tools.png);
+        background-image: url(icons/repair-tools.png);
         background-size: 90%
     }
 
     #skills-section .skills-flex-wrapper .skills-heading .sprite.knowledge {
-        background-image: url(img/icons/light-bulb.png)
+        background-image: url(icons/light-bulb.png)
     }
 
 #skills-section .skills-flex-wrapper .flex-item {
@@ -1615,19 +1615,19 @@ ul {
 }
 
 #experience-section .experience-wrapper #timeline .timeline-block .timeline-img .sprite.university {
-    background-image: url(img/icons/graduate-cap.png)
+    background-image: url(icons/graduate-cap.png)
 }
 
 #experience-section .experience-wrapper #timeline .timeline-block .timeline-img .sprite.research {
-    background-image: url(img/icons/search.png)
+    background-image: url(icons/search.png)
 }
 
 #experience-section .experience-wrapper #timeline .timeline-block .timeline-img .sprite.industry {
-    background-image: url(img/icons/briefcase.png)
+    background-image: url(icons/briefcase.png)
 }
 
 #experience-section .experience-wrapper #timeline .timeline-block .timeline-img .sprite.academic {
-    background-image: url(img/icons/notebook.png)
+    background-image: url(icons/notebook.png)
 }
 
 #experience-section .experience-wrapper #timeline .timeline-block .timeline-content {
@@ -2431,7 +2431,7 @@ ul {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-image: url(http://brittanychiang.com/img/404-bg.jpg)
+        background-image: url(http://brittanychiang.com/404-bg.jpg)
     }
 
         .four-oh-four #particles-js:before {
