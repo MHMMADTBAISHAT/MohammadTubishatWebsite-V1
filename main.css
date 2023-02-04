@@ -1329,7 +1329,7 @@ ul {
 
 @media only screen and (max-width:480px) {
     #skills-section .skills-flex-wrapper .dev-wrapper .dev-item {
-        width: 12vh;
+        width: 14vh;
         height: 80px;
         line-height: 5.5
     }
