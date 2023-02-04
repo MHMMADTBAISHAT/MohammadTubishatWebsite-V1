@@ -253,25 +253,25 @@ ul {
 
 @media only screen and (max-width:1170px) {
     #services-section .bg {
-        background-image: url(img/bg-services/services-lg.jpg)
+        background-image: url(img/services-xl.jpg)
     }
 }
 
 @media only screen and (max-width:900px) {
     #services-section .bg {
-        background-image: url(img/bg-services/services-md.jpg)
+        background-image: url(img/services-xl.jpg)
     }
 }
 
 @media only screen and (max-width:660px) {
     #services-section .bg {
-        background-image: url(img/bg-services/services-sm.jpg)
+        background-image: url(img/services-xl.jpg)
     }
 }
 
 @media only screen and (max-width:480px) {
     #services-section .bg {
-        background-image: url(img/bg-services/services-xs.jpg)
+        background-image: url(img/services-xl.jpg)
     }
 }
 
