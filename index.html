@@ -244,7 +244,7 @@ function navigateto (){
     window.open('MohammedTubishat.pdf');
 }
 const elements = document.querySelectorAll(".lazy");
-const options = { threshold: 0.5 };
+const options = { threshold: 0.2 };
 
 if (!!window.IntersectionObserver) {
   let observer = new IntersectionObserver((entries, observer) => {
