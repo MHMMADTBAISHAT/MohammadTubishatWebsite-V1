@@ -2079,13 +2079,6 @@ ul {
     font-weight: 500;
     letter-spacing: .5px
 }
-
-#contact-section .contact-description {
-    margin: 0 auto;
-    max-width: 440px;
-    font-size: 1.2em
-}
-
 @media only screen and (max-width:1170px) {
     #contact-section .contact-description {
         padding: 0
@@ -2507,4 +2500,9 @@ ul {
 .lazy.visible:not(:first-child) {
     transform: translateY(0);
     opacity: 1;
+}
+.contact-description
+{
+    color: #8892b0;
+    text-align: center;
 }
